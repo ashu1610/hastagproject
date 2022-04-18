@@ -1,0 +1,129 @@
+@media(max-width:1411px){
+    /* 2. navbar */
+    .header-wapper .menu-navbar-nav{
+        width: 70%;
+    }
+}
+
+@media(max-width:1230px){
+    /* 2. navbar */
+    .header-wapper .nav-item{
+        margin: 0 5px;
+    }
+
+    .header-wapper .menu-navbar-btn{
+        padding: 12px 10px;
+    }
+    /* 3. banner */
+    .banner_wrapper .banner-title{
+        font-size: 50px;
+    }
+    /* 4. client */
+    .clients .col-2 img{
+        width: 180px;
+    }
+}
+
+@media(max-width:1070px){
+    /* 2. navbar */
+    .header-wapper .nav-item .nav-link{
+        font-size: 16px;
+    }
+
+    /* 4. client */
+    .clients .col-2 img{
+        width: 150px;
+    }
+
+    /* 5. about */
+    .about_wrapper .about_title{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:992px){
+    /* 2. navbar */
+    .header-wapper .navbar-brand img{
+        width:180px
+    }
+    .header-wapper .menu-navbar-nav{
+        width: auto;
+        text-align: center;
+    }
+    .header-wapper .nav-item .nav-link{
+        margin-top: 15px;
+        font-size: 18px;
+    }
+    .header-wapper .nav-item:last-child .nav-link{
+        margin-bottom: 20px;
+    }
+    .header-wapper .learn-more-btn{
+        padding: 12px 29px;
+    }
+    .header-wapper .navbar-collapse{
+        background:var(--bg-white);
+    }
+
+    /* 3. banner */
+    .banner_wrapper{
+        text-align: center;
+    }
+    .banner_wrapper .banner-title{
+        font-size: 36px;
+    }
+    .banner_wrapper .learn-more-btn-section{
+        justify-content: center;
+    }
+    /* 4. client */
+    .clients .col-2 img{
+        width: 130px;
+    }
+
+    /* 5. about */
+    .about_wrapper .about_number{
+        margin: 20px auto;
+    }
+
+    .about_wrapper .about_title{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:768px){
+    /* 3. banner */
+    .banner_wrapper{
+        padding: 100px 0 100px;
+    }
+    .banner_wrapper .row{
+        flex-direction: column-reverse;
+    }
+
+    /* 4. client */
+    .clients .col-2 img{
+        width: 200px;
+        justify-content: center;
+        margin-left: 200%;
+    }
+
+    .clients .row{
+        justify-content: center;
+    }
+
+    .clients .col-2{
+        display: block; 
+    }
+
+    .free_trial .free_title{
+        font-size: 24px;
+    }
+
+    /* 10. faqs */
+    .faq_wrapper .accordion-button{
+        font-size: 18px;
+    }
+
+    /* 11. footer */
+    .footer_wrapper .footer_logo img{
+        max-width: 50%;
+    }
+}
